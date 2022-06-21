@@ -1,0 +1,23 @@
+Go through website and go to Getting Started
+Heroku CLI and git must be installed
+heroku login
+heroku --version
+node --version
+npm --version
+git --version
+create Procfile in the project folder which contains command node app.js to run the app
+
+go to project folder path - cd /c/Users/dchheda/Downloads/Dharmil/Node+API/Sign_Up
+	git init
+	git add .
+	git commit -m "First Commit"
+
+heroku create 
+git push heroku master
+https://fast-temple-95125.herokuapp.com/
+
+
+if u make any changes to project files
+then git add .
+	 git commit -m "changed code/image/..."
+	 git push heroku master
